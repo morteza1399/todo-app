@@ -18,7 +18,7 @@
 <script>
 import AppFilter from "./AppFilter.vue";
 import { mapState, mapActions } from "pinia";
-import { useTodoStore } from "../store/index";
+import { useTodoStore } from "../pinia/todo";
 
 export default {
   name: "AppTableFooter",

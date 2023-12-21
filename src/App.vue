@@ -17,7 +17,7 @@ import AppInputBox from "@/components/AppInputBox.vue";
 import AppTable from "@/components/AppTable.vue";
 import AppReorderList from "@/components/AppReorderList.vue";
 import { mapActions } from "pinia";
-import { useTodoStore } from "./store/index";
+import { useTodoStore } from "./pinia/todo";
 export default {
   name: "App",
   components: {

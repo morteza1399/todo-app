@@ -19,7 +19,7 @@
 <script>
 import AppCircle from "./AppCircle.vue";
 import { mapState, mapActions } from "pinia";
-import { useTodoStore } from "../store/index";
+import { useTodoStore } from "../pinia/todo";
 
 export default {
   name: "AppInputBox",
